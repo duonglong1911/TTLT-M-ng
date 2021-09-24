@@ -54,12 +54,16 @@ public class Calculator extends javax.swing.JFrame {
         btn_chia = new javax.swing.JButton();
         jTextField1 = new javax.swing.JTextField();
         jTextField2 = new javax.swing.JTextField();
+        jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         txt_number.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
         txt_number.setName("txt_number"); // NOI18N
 
+        btn_mot.setBackground(new java.awt.Color(0, 0, 0));
+        btn_mot.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        btn_mot.setForeground(new java.awt.Color(255, 255, 255));
         btn_mot.setText("1");
         btn_mot.setName("txt_mot"); // NOI18N
         btn_mot.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -68,6 +72,9 @@ public class Calculator extends javax.swing.JFrame {
             }
         });
 
+        btn_bang.setBackground(new java.awt.Color(0, 0, 0));
+        btn_bang.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        btn_bang.setForeground(new java.awt.Color(255, 255, 255));
         btn_bang.setText("=");
         btn_bang.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -75,6 +82,9 @@ public class Calculator extends javax.swing.JFrame {
             }
         });
 
+        btn_tam.setBackground(new java.awt.Color(0, 0, 0));
+        btn_tam.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        btn_tam.setForeground(new java.awt.Color(255, 255, 255));
         btn_tam.setText("8");
         btn_tam.setName("txt_mot"); // NOI18N
         btn_tam.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -83,6 +93,9 @@ public class Calculator extends javax.swing.JFrame {
             }
         });
 
+        btn_khong.setBackground(new java.awt.Color(0, 0, 0));
+        btn_khong.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        btn_khong.setForeground(new java.awt.Color(255, 255, 255));
         btn_khong.setText("0");
         btn_khong.setName("txt_mot"); // NOI18N
         btn_khong.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -91,6 +104,9 @@ public class Calculator extends javax.swing.JFrame {
             }
         });
 
+        btn_hai.setBackground(new java.awt.Color(0, 0, 0));
+        btn_hai.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        btn_hai.setForeground(new java.awt.Color(255, 255, 255));
         btn_hai.setText("2");
         btn_hai.setName("txt_mot"); // NOI18N
         btn_hai.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -99,6 +115,9 @@ public class Calculator extends javax.swing.JFrame {
             }
         });
 
+        btn_nhan.setBackground(new java.awt.Color(0, 0, 0));
+        btn_nhan.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        btn_nhan.setForeground(new java.awt.Color(255, 255, 255));
         btn_nhan.setText("*");
         btn_nhan.setName("txt_mot"); // NOI18N
         btn_nhan.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -107,6 +126,9 @@ public class Calculator extends javax.swing.JFrame {
             }
         });
 
+        btn_bon.setBackground(new java.awt.Color(0, 0, 0));
+        btn_bon.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        btn_bon.setForeground(new java.awt.Color(255, 255, 255));
         btn_bon.setText("4");
         btn_bon.setName("txt_mot"); // NOI18N
         btn_bon.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -115,6 +137,9 @@ public class Calculator extends javax.swing.JFrame {
             }
         });
 
+        btn_c.setBackground(new java.awt.Color(255, 153, 51));
+        btn_c.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        btn_c.setForeground(new java.awt.Color(255, 255, 255));
         btn_c.setText("C");
         btn_c.setName("txt_mot"); // NOI18N
         btn_c.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -123,6 +148,9 @@ public class Calculator extends javax.swing.JFrame {
             }
         });
 
+        btn_cham.setBackground(new java.awt.Color(0, 0, 0));
+        btn_cham.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        btn_cham.setForeground(new java.awt.Color(255, 255, 255));
         btn_cham.setText(".");
         btn_cham.setName("txt_mot"); // NOI18N
         btn_cham.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -131,6 +159,9 @@ public class Calculator extends javax.swing.JFrame {
             }
         });
 
+        btn_ba.setBackground(new java.awt.Color(0, 0, 0));
+        btn_ba.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        btn_ba.setForeground(new java.awt.Color(255, 255, 255));
         btn_ba.setText("3");
         btn_ba.setName("txt_mot"); // NOI18N
         btn_ba.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -139,6 +170,9 @@ public class Calculator extends javax.swing.JFrame {
             }
         });
 
+        btn_nam.setBackground(new java.awt.Color(0, 0, 0));
+        btn_nam.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        btn_nam.setForeground(new java.awt.Color(255, 255, 255));
         btn_nam.setText("5");
         btn_nam.setName("txt_mot"); // NOI18N
         btn_nam.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -147,6 +181,9 @@ public class Calculator extends javax.swing.JFrame {
             }
         });
 
+        btn_chin.setBackground(new java.awt.Color(0, 0, 0));
+        btn_chin.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        btn_chin.setForeground(new java.awt.Color(255, 255, 255));
         btn_chin.setText("9");
         btn_chin.setName("txt_mot"); // NOI18N
         btn_chin.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -155,6 +192,9 @@ public class Calculator extends javax.swing.JFrame {
             }
         });
 
+        btn_tru.setBackground(new java.awt.Color(0, 0, 0));
+        btn_tru.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        btn_tru.setForeground(new java.awt.Color(255, 255, 255));
         btn_tru.setText("-");
         btn_tru.setName("txt_mot"); // NOI18N
         btn_tru.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -163,6 +203,9 @@ public class Calculator extends javax.swing.JFrame {
             }
         });
 
+        btn_sau.setBackground(new java.awt.Color(0, 0, 0));
+        btn_sau.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        btn_sau.setForeground(new java.awt.Color(255, 255, 255));
         btn_sau.setText("6");
         btn_sau.setName("txt_mot"); // NOI18N
         btn_sau.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -171,6 +214,9 @@ public class Calculator extends javax.swing.JFrame {
             }
         });
 
+        btn_bay.setBackground(new java.awt.Color(0, 0, 0));
+        btn_bay.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        btn_bay.setForeground(new java.awt.Color(255, 255, 255));
         btn_bay.setText("7");
         btn_bay.setName("txt_mot"); // NOI18N
         btn_bay.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -179,6 +225,9 @@ public class Calculator extends javax.swing.JFrame {
             }
         });
 
+        btn_cong.setBackground(new java.awt.Color(0, 0, 0));
+        btn_cong.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        btn_cong.setForeground(new java.awt.Color(255, 255, 255));
         btn_cong.setText("+");
         btn_cong.setName("txt_mot"); // NOI18N
         btn_cong.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -187,6 +236,9 @@ public class Calculator extends javax.swing.JFrame {
             }
         });
 
+        btn_chia.setBackground(new java.awt.Color(0, 0, 0));
+        btn_chia.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        btn_chia.setForeground(new java.awt.Color(255, 255, 255));
         btn_chia.setText("/");
         btn_chia.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -195,8 +247,14 @@ public class Calculator extends javax.swing.JFrame {
         });
 
         jTextField1.setText("jTextField1");
+        jTextField1.setUI(null);
 
         jTextField2.setText("jTextField2");
+        jTextField2.setUI(null);
+
+        jLabel1.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(255, 0, 51));
+        jLabel1.setText("CASIO");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -234,19 +292,23 @@ public class Calculator extends javax.swing.JFrame {
                                     .addComponent(btn_tru, javax.swing.GroupLayout.PREFERRED_SIZE, 72, javax.swing.GroupLayout.PREFERRED_SIZE)))
                             .addGroup(layout.createSequentialGroup()
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(btn_khong, javax.swing.GroupLayout.PREFERRED_SIZE, 72, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                    .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(btn_c, javax.swing.GroupLayout.PREFERRED_SIZE, 72, javax.swing.GroupLayout.PREFERRED_SIZE))
                                 .addGap(18, 18, 18)
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addComponent(jTextField2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                                     .addGroup(layout.createSequentialGroup()
-                                        .addComponent(btn_c, javax.swing.GroupLayout.PREFERRED_SIZE, 72, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(btn_khong, javax.swing.GroupLayout.PREFERRED_SIZE, 72, javax.swing.GroupLayout.PREFERRED_SIZE)
                                         .addGap(18, 18, 18)
                                         .addComponent(btn_cham, javax.swing.GroupLayout.PREFERRED_SIZE, 72, javax.swing.GroupLayout.PREFERRED_SIZE)
                                         .addGap(18, 18, 18)
                                         .addComponent(btn_cong, javax.swing.GroupLayout.PREFERRED_SIZE, 72, javax.swing.GroupLayout.PREFERRED_SIZE)))))
                         .addGap(18, 18, 18)
-                        .addComponent(btn_bang, javax.swing.GroupLayout.PREFERRED_SIZE, 86, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(btn_bang, javax.swing.GroupLayout.PREFERRED_SIZE, 86, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                                .addComponent(jLabel1)
+                                .addGap(20, 20, 20)))))
                 .addContainerGap(20, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
@@ -276,18 +338,24 @@ public class Calculator extends javax.swing.JFrame {
                             .addComponent(btn_chia, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(btn_khong, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(btn_c, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(btn_cham, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(btn_cong, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                            .addComponent(btn_cong, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(btn_khong, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                         .addGap(29, 29, 29)
                         .addComponent(btn_bang, javax.swing.GroupLayout.PREFERRED_SIZE, 159, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jTextField2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(layout.createSequentialGroup()
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jTextField2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addContainerGap(45, Short.MAX_VALUE))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(jLabel1)
+                        .addContainerGap())))
         );
 
         txt_number.getAccessibleContext().setAccessibleName("txt_number");
@@ -452,6 +520,7 @@ public class Calculator extends javax.swing.JFrame {
     private javax.swing.JButton btn_sau;
     private javax.swing.JButton btn_tam;
     private javax.swing.JButton btn_tru;
+    private javax.swing.JLabel jLabel1;
     private javax.swing.JTextField jTextField1;
     private javax.swing.JTextField jTextField2;
     private javax.swing.JTextField txt_number;
