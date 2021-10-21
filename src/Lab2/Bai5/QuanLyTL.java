@@ -71,12 +71,7 @@ public class QuanLyTL {
     
     
     public static  void menu(){
-//        System.out.println("1: Nhập thông tin tài liệu");
-//        System.out.println("2: Hiển thị thông tin các tài liệu");
-//        System.out.println("3: Tìm kiếm tài liệu theo loại");
-//        System.out.println("4: Tìm kiếm sách theo tên tác giá");
-//        System.out.println("5: Tìm kiếm theo tên tác giả gần đúng");
-//        System.out.println("6: Hiển thị danh sách theo chỉ định của người dùng");
+
         System.out.println("Nhập 1 - Tạo mới sách");
         System.out.println("Nhập 2 - Tạo mới tạp chí");
         System.out.println("Nhập 3 - Tạo mới báo");

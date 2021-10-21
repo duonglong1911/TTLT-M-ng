@@ -18,16 +18,17 @@ public class ProductMenu {
         Product[] product = null;
         do {
             menu();
-            System.out.println("Nhap vao lua chon cua ban :");
+            System.out.println("Nhập vào lựa chọn của bạn :");
             Scanner sc = new Scanner(System.in);
             n = Integer.parseInt(sc.nextLine());
             switch (n) {
                 case 1: {
                     int m;
-                    System.out.println("Nhap vao n :");
+                    System.out.println("Nhập số hàng hóa muốn thêm :");
                     m = Integer.parseInt(sc.nextLine());
                     product = new Product[m];
                     for (int i = 0; i < m; i++) {
+                        System.out.println("Nhập thông tin hàng hóa thứ: "+i);
                         product[i] = new Product();
                         product[i].input();
                     }
@@ -35,11 +36,11 @@ public class ProductMenu {
                 }
                 case 2: {
                     if (product == null) {
-                        System.out.println("ban chua nhap du lieu");
+                        System.out.println("Bạn chưa nhập dữ liệu");
                     } else {
-                        System.out.println("du lieu ban vua nhap la :");
+                        System.out.println("Dữ liệu bạn vừa nhập là :");
                         for (int i = 0; i < product.length; i++) {
-                            System.out.println("thong tin hang hoa thu " + (i + 1));
+                            System.out.println("Thông tin hàng hóa thứ: " + (i + 1));
                             product[i].output();
                         }
                     }
@@ -47,12 +48,12 @@ public class ProductMenu {
             }
             case 3: {
                 if (product == null) {
-                    System.out.println("ban chua nhap du lieu");
+                    System.out.println("Bạn chưa nhập dữ liệu");
                 } else {
                     a.sort(product);
-                    System.out.println("du lieu sau khi sap xep la :");
+                    System.out.println("Dữ liệu sau khi sắp xếp là :");
                     for (int i = 0; i < product.length; i++) {
-                        System.out.println("thong tin hang hoa thu " + (i + 1));
+                        System.out.println("Thông tin hàng hóa thứ: " + (i + 1));
                         product[i].output();
                     }
                 }
@@ -61,7 +62,7 @@ public class ProductMenu {
             case 4:
                 break;
             default: {
-                System.out.println("khong co lua chon cua ban ");
+                System.out.println("Không có lựa chọn của bạn ");
                 break;
                 }
             }

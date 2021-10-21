@@ -80,5 +80,9 @@ public class TestTienDien {
         }
         System.out.println("Trung bình cộng thành tiền khách nước ngoài: "+(tong/max));
     }
+    public static void main(String[] args) {
+        TestTienDien test = new TestTienDien();
+        test.nhapDanhSachKhachHang();
+    }
     
 }

@@ -44,7 +44,4 @@ public class Mobile extends Engine{
         System.out.println("Nước sản xuất: "+this.country);
     }
     
-    
-    
-    
 }

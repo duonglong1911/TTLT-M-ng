@@ -17,7 +17,6 @@ import java.util.Scanner;
 public class TestProduct {
     public static void main(String[] args) {
         int n = 0;
-        Product[] product = null;
         ArrayList<Product> productList = new ArrayList<>();
             System.out.println("Nhap n :");
             Scanner sc = new Scanner(System.in);

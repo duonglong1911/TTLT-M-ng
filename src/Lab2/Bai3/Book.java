@@ -79,8 +79,21 @@ public class Book {
         this.producer = sc.nextLine();
         System.out.println("Nhập năm xuất bản: ");
         this.yearPublishing = sc.nextInt();
-        System.out.println("Nhập giá bán: ");
-        this.price = sc.nextFloat();
+        //System.out.println("Nhập giá bán: ");
+        
+                   
+        
+        System.out.print("Nhập giá: ");
+        boolean check = false;
+        while (!check) {
+            try {
+                price = sc.nextFloat();
+                check = true;
+            } catch (Exception e) {
+                System.out.println("Nhập lại giá : ");
+                sc.nextLine();
+            }
+        }
     }
     
     public void output(){

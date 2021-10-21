@@ -71,8 +71,5 @@ public class Sach extends TaiLieu{
         System.out.println("Tên sách: "+this.tenSach);
         System.out.println("Số trang: "+this.soTrang);
     }
-    
-    
-    
-    
+   
 }

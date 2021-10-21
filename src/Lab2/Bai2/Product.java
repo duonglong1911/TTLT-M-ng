@@ -67,8 +67,19 @@ public class Product {
         this.tenHH = sc.nextLine();
         System.out.println("Nhập số lượng: ");
         this.soLuong = sc.nextFloat();
-        System.out.println("Nhập giá 1 Sp: ");
-        this.gia1SP = sc.nextFloat();
+//        System.out.println("Nhập giá 1 Sp: ");
+//        this.gia1SP = sc.nextFloat();
+        System.out.print("Nhập giá: ");
+        boolean check = false;
+        while (!check) {
+            try {
+                gia1SP = sc.nextFloat();
+                check = true;
+            } catch (Exception e) {
+                System.out.println("Nhập lại giá : ");
+                sc.nextLine();
+            }
+        }
     }
     
     public void display(){

@@ -69,14 +69,6 @@ public class KhachVietNam extends KhachHang{
         System.out.println("Thành tiền: "+thanhTien(this));
     }
     
-    public static void main(String[] args) {
-        KhachVietNam vn = new KhachVietNam();
-        vn.input();
-        vn.output();
-    }
-    
-    
-    
     
     
 }

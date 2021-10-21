@@ -21,7 +21,7 @@ public class Car extends Engine{
     public Car(int totalSeat, float speed, String engineId, String engineName, String manufacture, int yearMaking, float price) {
         super(engineId, engineName, manufacture, yearMaking, price);
         this.totalSeat = totalSeat;
-        this.speed = speed;
+        this.speed = speed; 
     }
 
     public int getTotalSeat() {
@@ -56,8 +56,5 @@ public class Car extends Engine{
         System.out.println("Số chỗ ngồi: "+this.totalSeat);
         System.out.println("Tốc đọ: "+this.speed);
     }
-    
-    
-    
     
 }

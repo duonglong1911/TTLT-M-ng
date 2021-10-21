@@ -104,7 +104,8 @@ public class KhachHang {
             try {
                 this.ngayHD = format.parse(cinput);
             } catch (ParseException ex) {
-                Logger.getLogger(Bao.class.getName()).log(Level.SEVERE, null, ex);
+                //Logger.getLogger(Bao.class.getName()).log(Level.SEVERE, null, ex);
+                System.out.println("Nhập sai định dạng");
             }
         }
     }
